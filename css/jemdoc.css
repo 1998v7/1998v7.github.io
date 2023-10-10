@@ -3,7 +3,7 @@ table#tlayout {
  	border: none;
  	border-collapse: separate;
  	background: white;
- 	width: 1200px;
+ 	width: 1150px;
  	margin: auto;
  	border: 1px solid #eee;
  	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -14,13 +14,11 @@ body {
 	background: white;
 	font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
 	padding-bottom: 8px;
-	margin: 0;
+	margin: 8px;
+	font-size: 1.05em;
 }
 
 
-html {
-	margin-right: calc(100% - 100vw);
-}
 
 #layout-menu {
 	background: #f6f6f6;
@@ -28,7 +26,7 @@ html {
 	padding-top: 0.5em;
 	padding-left: 8px;
 	padding-right: 15px;
-	font-size: 1.0em;
+	font-size: 1.05em;
 	width: 100px;
 	white-space: nowrap;
 	text-align: left;
@@ -87,9 +85,9 @@ a:hover {
 
 div.menu-category {
 	border-bottom: 1px solid gray;
-	margin-top: 0.8em;
+	margin-top: 1em;
 	padding-top: 0.2em;
-	padding-bottom: 0.1em;
+	padding-bottom: 0.5em;
 	font-weight: bold;
 }
 
@@ -136,12 +134,12 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 165%;
+	font-size: 140%;
 }
 
 h2 {
-	padding-top: 0.8em;
-	font-size: 125%;
+	padding-top: 0.6em;
+	font-size: 120%;
 }
 
 h2 + h3 {
