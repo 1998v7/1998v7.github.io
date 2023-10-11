@@ -3,7 +3,7 @@ table#tlayout {
  	border: none;
  	border-collapse: separate;
  	background: white;
- 	width: 1180px;
+ 	width: 1200px;
  	margin: auto;
  	border: 1px solid #eee;
  	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -134,7 +134,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 140%;
+	font-size: 145%;
 }
 
 h2 {
