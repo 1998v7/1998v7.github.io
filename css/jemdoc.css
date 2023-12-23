@@ -23,10 +23,10 @@ body {
 #layout-menu {
 	background: #f6f6f6;
 	border: 1px solid #dddddd;
-	padding-top: 0.5em;
+	padding-top: 1.7em;
 	padding-left: 8px;
-	padding-right: 15px;
-	font-size: 1.1em;
+	padding-right: 20px;
+	font-size: 1.0em;
 	width: 95px;
 	white-space: nowrap;
 	text-align: left;
@@ -63,7 +63,7 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #224b8d;
+	color:  #0000CD;;
 	text-decoration: none;
 }
 
