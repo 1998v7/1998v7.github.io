@@ -1,6 +1,13 @@
 @import "./styles.css";
 
 
+.container {
+    max-width: 1100px; /* 你可以根据需求调整这个值 */
+    margin: 0 auto;
+    padding: 0 15px; /* 为小屏幕添加一些边距 */
+}
+
+
 :root{
     --h-title-color:#000000;
 }
