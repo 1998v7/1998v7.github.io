@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #2937f0;
+  --bs-blue: #2937f2;
   --bs-indigo: #6610f2;
   --bs-purple: #9f1ae2;
   --bs-pink: #d63384;
@@ -7050,7 +7050,7 @@ textarea.form-control-lg {
 }
 
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2) !important;
 }
 
 .shadow-lg {
@@ -10864,8 +10864,8 @@ section {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-color: #fff;
 }
 #mainNav .navbar-brand {
@@ -10876,7 +10876,7 @@ section {
 }
 #mainNav .navbar-toggler {
   font-size: 0.875rem;
-  padding: 0.75rem 1rem;
+  /* padding: 0.75rem 1rem; */
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
