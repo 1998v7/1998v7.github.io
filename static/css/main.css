@@ -14,6 +14,10 @@
     padding: 10px; /* 设置统一的内边距 */
 }
 
+html {
+    overflow-y: scroll;
+}
+
 :root{
     --h-title-color:#000000;
 }
