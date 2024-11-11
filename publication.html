@@ -146,7 +146,21 @@ _gaq.push(['_trackPageview']);
     </li> 
 </ul>
 
+<footer>
+        Last updated: <span id="lastUpdated"></span>
+</footer>
 
+<script>
+	// 获取最后修改的日期和时间
+	var lastModified = document.lastModified;
+	// 创建日期对象
+	var date = new Date(lastModified);
+	// 格式化为 YYYY-MM-DD 格式
+	var formattedDate = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2);
+	
+	// 将格式化的日期设置到 span 元素中
+	document.getElementById("lastUpdated").textContent = formattedDate;
+</script>
 
 
 <div id="footer">
