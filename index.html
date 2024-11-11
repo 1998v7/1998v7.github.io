@@ -161,30 +161,25 @@ _gaq.push(['_trackPageview']);
   
 </ul>
 
+	
+<footer style="margin: 25px 0px 0px 0px">
+        Last updated: <span id="lastUpdated"></span>
+</footer>
 
-<h2>Others</h2>
-  <h4 style="margin: 10px 0px 0px 0px"> &nbsp; &nbsp; &nbsp;Work Experience</h4>
-	<ul>
-   <li style="margin: 10px 0px 0px 0px">
-      2023.10 - 2024.07	&nbsp&nbsp Research associate at <a href="https://personal.ntu.edu.sg/boan/">Agent Mediated Intelligence Research Group</a>, NTU
-    </li>
-		 </ul> 
-
-  <h4 style="margin: 10px 0px 0px 0px"> &nbsp; &nbsp; &nbsp;Competitions</h4>
-  <ul>
-    <li style="margin: 10px 0px 0px 0px">
-      MICCAI 2022 - Glaucoma Oct Analysis and Layer Segmentation. Rank 5/100 
-    </li>
-    <li style="margin: 10px 0px 0px 0px">
-      CVPR 2022 Workshop FGVC9 Competition - Sorghum Cultivars 2022.  Rank 4/253
-    </li>
-  </ul> 
+<script>
+	// 获取最后修改的日期和时间
+	var lastModified = document.lastModified;
+	// 创建日期对象
+	var date = new Date(lastModified);
+	// 格式化为 YYYY-MM-DD 格式
+	var formattedDate = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2);
+	
+	// 将格式化的日期设置到 span 元素中
+	document.getElementById("lastUpdated").textContent = formattedDate;
+</script>
 
 
-<div id="footer">
-<!-- Page generated 2023-05-15 16:38:11 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>. -->
-<!-- (<a href="index.jemdoc">source</a>) -->
-</div>
+
 
 
 </td>
